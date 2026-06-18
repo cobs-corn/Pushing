@@ -1,7 +1,8 @@
 print("Welcome to spartan saving, where saving is spartaculous.")
 Spartans = {"Sekyim":{"pin":"1432", "balance":900000.0},
             "Alex":{"pin":"3512", "balance": 300.5},
-            "Julie":{"pin":"1198", "balance": 29.8}
+            "Julie":{"pin":"1198", "balance": 29.8},
+            "Max":{"pin":"1234", "balance": 1000.0}
 }
 user_pin=input("Enter your 4 digit pin:")
 for name, pin in Spartans.items():
