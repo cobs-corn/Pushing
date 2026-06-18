@@ -7,7 +7,7 @@ user_pin=input("Enter your 4 digit pin:")
 for name, pin in Spartans.items():
     #print(pin["pin"])
     if user_pin==pin["pin"]:
-        print(f"Hello {name},what would you like to do today")
+        print(f"Hello {name},what would you like to do today?")
         while True:     
          print("1. Check Balance")
          print("2. Deposit")
